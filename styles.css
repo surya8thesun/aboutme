@@ -5,18 +5,19 @@ hr{
   width: 10%;
   border-width:  3px;
 
-  height: 0%;
+  height: 0;
 }
 body {
-  background-image:url(https://unsplash.com/photos/3YrppYQPoCI/download) ;
+  background-image: url(images/bg.jpg) ;
   text-align: center;
 }
 h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
 
   text-align: center;
+
 }
 h2 {
-
   text-align: center;
 }
 
@@ -30,5 +31,23 @@ table {
 }
 img {
   text-align: center;
+  margin: 10px auto 10px auto;
 
+}
+.tabs {
+  position: fixed;
+  top: 0;
+  margin: 0 auto 0 auto;
+}
+a {
+  margin: 10px 20px;
+  text-align: center;
+}
+/*h3{
+
+}
+*/
+nav{
+  
+  top: 0;
 }

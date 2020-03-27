@@ -1,6 +1,16 @@
 .poem{
-  background-color: yellow;
+  position: absolute;
+  right: 90px;
 }
-body {
-  text-align: center;
+img{
+  width: 1300px;
+  height: 1400px;
+}
+body{
+  background-image: url(images/doctor.jpg);
+}
+ul{
+  position: fixed;
+  top: 0;
+  margin: 0 auto 0 auto;
 }
