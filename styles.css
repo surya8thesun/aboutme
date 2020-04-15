@@ -40,10 +40,10 @@ img {
   top: 0;
   margin: 0 auto 0 auto;
 }
-a {
+/* a {
   margin: 10px 20px;
   text-align: center;
-}
+} */
 /*h3{
 
 }
@@ -51,4 +51,12 @@ a {
 nav{
   position: fixed;
   top: 0;
+}
+@media (max-width:350px){
+
+  body{
+    font-size: 2.5rem;
+  }
+
+
 }
