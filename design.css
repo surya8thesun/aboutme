@@ -42,8 +42,11 @@ ul{
   width: 5%;
   height: 5%;
 }
-@media (max-width:350px){
+@media (min-height:900px){
+
   body{
-    font-size: 90px;
+    font-size: 2.5rem;
   }
+
+
 }
