@@ -1,39 +1,40 @@
-hr{
-  border-style: dotted ;
+hr {
+  border-style: dotted;
   /* border-top-style:  dotted; */
   border-bottom-style: none;
   width: 10%;
-  border-width:  3px;
+  border-width: 3px;
 
   height: 0;
 }
+#mera-nav {
+  position: sticky;
+  top: 0;
+}
 body {
-
-  background-image: url(images/bg.jpg) ;
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 h1 {
-  font-family: 'Liu Jian Mao Cao', cursive;
+  font-family: "Liu Jian Mao Cao", cursive;
 
   text-align: center;
-
 }
 h2 {
   text-align: center;
 }
 
 p {
-
   text-align: center;
 }
 table {
-
   text-align: center;
 }
 img {
   text-align: center;
   margin: 10px auto 10px auto;
-
 }
 .tabs {
   position: fixed;
@@ -48,15 +49,27 @@ img {
 
 }
 */
-nav{
+nav {
   position: fixed;
   top: 0;
 }
-@media (min-height:900px){
-
-  body{
+.certificate {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 10vh;
+  left: 5vw;
+  z-index: -10;
+}
+@media (min-height: 900px) {
+  body {
     font-size: 2.5rem;
+    height: 200vh;
   }
-
-
+  .certificate{
+    height: 40vh;
+    width:90vw;
+    margin: 180vh auto 20vh;
+    bottom:0;
+  }
 }
